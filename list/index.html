@@ -10,13 +10,13 @@
 <meta property="og:description" content="הדיג׳יים שאפשר לבחור לחתונה שלכם, עם קישור לאינסטגרם של כל אחד.">
 <meta property="og:locale" content="he_IL">
 <meta property="og:url" content="https://sroryinon-cyber.github.io/djs/list/">
-<meta property="og:image" content="https://sroryinon-cyber.github.io/djs/images/og-djs-list.jpg">
+<meta property="og:image" content="https://sroryinon-cyber.github.io/djs/images/og-djs-list-2.jpg">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="תכירו את הדיג׳יים שלנו. בוחרים דיג׳יי לחתונה">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://sroryinon-cyber.github.io/djs/images/og-djs-list.jpg">
+<meta name="twitter:image" content="https://sroryinon-cyber.github.io/djs/images/og-djs-list-2.jpg">
 <link rel="canonical" href="https://sroryinon-cyber.github.io/djs/list/">
 <meta name="theme-color" content="#081216">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -144,10 +144,7 @@
     .grid .card { width: calc((100% - var(--gap)) / 2 - .1px); }
   }
   @media (min-width: 860px) {
-    .grid .card { width: calc((100% - 2 * var(--gap)) / 3 - .1px); }
-  }
-  @media (min-width: 1280px) {
-    .grid .card { width: calc((100% - 4 * var(--gap)) / 5 - .1px); }
+    .grid .card { width: min(340px, calc((100% - 2 * var(--gap)) / 3 - .1px)); }
   }
 
   /* ---------- Card ---------- */
@@ -266,16 +263,6 @@
   @media (min-width: 860px) {
     .card h3 { font-size: 33px; }
   }
-  @media (min-width: 1280px) {
-    .card h3 { font-size: 29px; }
-    .info { padding: 14px; }
-    .tag { font-size: 13px; }
-    .ig { gap: 8px; padding: 7px 7px 7px 12px; font-size: 13px; }
-    .ig .who { gap: 6px; }
-    .ig svg { width: 16px; height: 16px; }
-    .ig .go { width: 24px; height: 24px; }
-    .ig .go svg { width: 12px; height: 12px; }
-  }
 
   /* ---------- Footer ---------- */
   footer { padding: clamp(40px, 8vw, 80px) 0 clamp(48px, 9vw, 96px); text-align: center; }
@@ -320,7 +307,7 @@
   <h1>תכירו את <em>הדיג׳יים שלנו</em></h1>
   <p class="lead">אלה הדיג׳יים שאפשר לבחור לחתונה שלכם. לחצו על כל אחד כדי לראות אותו בפעולה באינסטגרם, ותגידו לנו מי הכי מתאים לכם.</p>
   <nav class="jump" aria-label="קפיצה לרשימות">
-    <a href="#lineup"><b>4</b> דיג׳יים לבחירה</a>
+    <a href="#lineup"><b>5</b> דיג׳יים לבחירה</a>
     <a href="#premium"><b>3</b> בתוספת תשלום</a>
   </nav>
 </header>
@@ -328,7 +315,7 @@
 <main>
   <section id="lineup" class="wrap">
     <div class="head"><h2>דיג׳יים לבחירה</h2></div>
-    <p class="sub">ארבעה דיג׳יים, ארבעה סגנונות. הציצו בפרופיל של כל אחד.</p>
+    <p class="sub">חמישה דיג׳יים, חמישה סגנונות. הציצו בפרופיל של כל אחד.</p>
 
     <div class="grid">
       <a class="card reveal" href="https://www.instagram.com/yakirkremer_dj/" target="_blank" rel="noopener" aria-label="האינסטגרם של דיג׳יי יקיר קרמר" style="--pos: 50% 50%">
@@ -367,6 +354,16 @@
           <h3>ניר צפריר</h3>
           <p class="tag">Music Producer &amp; DJ</p>
           <span class="ig"><span class="who"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5.5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"/></svg><span>@djnirtzafrir</span></span><span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span></span>
+        </div>
+      </a>
+
+      <a class="card reveal" href="https://www.instagram.com/djavibenadiva/" target="_blank" rel="noopener" aria-label="האינסטגרם של דיג׳יי אבי בן אדיבה" style="--pos: 50% 50%">
+        <img src="../images/avi-ben-adiva.jpg" alt="דיג׳יי אבי בן אדיבה" width="700" height="875" loading="lazy">
+        <div class="info">
+          <p class="en">DJ Avi Ben Adiva</p>
+          <h3>אבי בן אדיבה</h3>
+          <p class="tag he">מתחייב שרחבת הריקודים תהיה מטורפת 🔥</p>
+          <span class="ig"><span class="who"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5.5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"/></svg><span>@djavibenadiva</span></span><span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span></span>
         </div>
       </a>
     </div>
